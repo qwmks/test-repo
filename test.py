@@ -52,6 +52,6 @@ def julia_set(c, x, y, zoom):
         div_time[m] = i
     return div_time
 
-
+#test
 plt.imshow(julia_set(c,x,y,zoom), cmap='magma')
 plt.show()
